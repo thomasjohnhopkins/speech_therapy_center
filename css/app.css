@@ -3,6 +3,25 @@ body, h1, h3, h4, h5 {
   color: #333;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+section.header-section {
+  height: 100%;
+}
+
 div.banner-container {
   background: linear-gradient(345deg, #478EA6, #eee);
   margin: 0 0 20px 0;
@@ -10,8 +29,9 @@ div.banner-container {
 }
 
 h1.banner-text {
-  font-family: 'Raleway', sans-serif;
-  color: #333;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #4F595C;
   margin: 25px;
 }
 
@@ -34,18 +54,21 @@ p.welcome-signature {
 }
 
 p.menu-item {
-  border-bottom: 1px solid #333;
+  border: 1px transparent;
+  border-radius: 10px;
   padding: 10px;
+  font-size: 18px;
+  background: #fff;
   margin: 15px auto;
   text-align: center;
   color: #333;
-  max-width: 200px
+  max-width: 225px;
 }
 
 p.menu-item:hover {
-  border-bottom: 1px solid #478EA6;
+  color: #478EA6;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 section.content-section {
@@ -88,6 +111,7 @@ h5.form-title {
 }
 
 a.form-link {
+  color: #fff;
   width: 100%;
   font-weight: 700;
   font-size: 18px;
@@ -105,6 +129,7 @@ p.contact-text {
 
 p.directions-text {
   font-size: 16px;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -131,14 +156,4 @@ ul.links-list {
 
 a.footer-link:hover {
   color: #aaa;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  text-decoration: none;
-  color: inherit;
 }
