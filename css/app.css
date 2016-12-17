@@ -110,5 +110,35 @@ p.directions-text {
 footer {
   background: #478EA6;
   color: white;
-  height: 200px;
+}
+
+div.footer-bold-text {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 50px;
+}
+
+div.links-title {
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+ul.links-list {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+a.footer-link:hover {
+  color: #aaa;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
 }
