@@ -23,7 +23,7 @@ section.header-section {
 }
 
 div.banner-container {
-  background: linear-gradient(345deg, #478EA6, #eee);
+  background: #fff;
   margin: 0 0 20px 0;
   color: #333;
 }
@@ -33,6 +33,11 @@ h1.banner-text {
   font-weight: 600;
   color: #4F595C;
   margin: 25px;
+}
+
+img.banner-image {
+  width: 300px;
+  margin: 30px auto;
 }
 
 div.welcome-row {
@@ -58,17 +63,17 @@ p.menu-item {
   border-radius: 10px;
   padding: 10px;
   font-size: 18px;
-  background: #fff;
+  background: #2B4763;
   margin: 15px auto;
   text-align: center;
-  color: #333;
+  color: #fff;
   max-width: 225px;
+  opacity: 0.8;
 }
 
 p.menu-item:hover {
-  color: #478EA6;
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 section.content-section {
@@ -82,6 +87,12 @@ section.odd-section {
 h3.section-header {
   padding-top: 40px;
   text-align: center;
+  margin-bottom: 30px;
+}
+
+p.section-header-text {
+  text-align: center;
+  font-size: 18px;
   margin-bottom: 30px;
 }
 
@@ -99,6 +110,12 @@ div.therapist-image {
 
 p.therapist-text {
   padding: 35px 45px;
+}
+
+p.services-bullets {
+  padding: 35px 45px;
+  text-align: center;
+
 }
 
 div.form-container {
@@ -133,7 +150,8 @@ p.directions-text {
 }
 
 footer {
-  background: #478EA6;
+  background: #2B4763;
+  opacity: 0.8;
   color: white;
 }
 
@@ -156,4 +174,34 @@ ul.links-list {
 
 a.footer-link:hover {
   color: #aaa;
+}
+
+header{
+    text-align: center;
+    line-height: 108px;
+    height: 108px;
+    background: #2B4763;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    display: none;
+}
+
+header.sticky {
+    opacity: 0.8;
+    display: block;
+    position: fixed;
+    font-size: 24px;
+    line-height: 48px;
+    height: 48px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+i.fa-bars {
+  margin: 12px;
+}
+i.fa-bars:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }

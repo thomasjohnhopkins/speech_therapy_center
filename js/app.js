@@ -39,3 +39,11 @@ $("#button-five").click(function() {
         scrollTop: $("#section-five").offset().top + offset
     }, 2000);
 });
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 300){
+        $('header').addClass("sticky");
+    }else {
+        $('header').removeClass("sticky");
+    }
+});
