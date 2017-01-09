@@ -2332,7 +2332,6 @@ body {
   padding: 1rem;
   border: 1px solid rgba(10, 10, 10, 0.25);
   border-radius: 10px;
-  position: relative;
   color: #0a0a0a;
   background-color: white; }
   .callout > :first-child {
