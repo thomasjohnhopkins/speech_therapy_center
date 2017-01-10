@@ -1,5 +1,21 @@
 $(document).foundation();
 
+$("#home-button").click(function(e) {
+  e.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $("body").offset().top
+  }, 2000);
+});
+
+$("#footer-home-button").click(function(e) {
+  e.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $("body").offset().top
+  }, 2000);
+});
+
 $("#button-one").click(function() {
     var offset = 20; //Offset of 20px
 
@@ -45,10 +61,12 @@ $(window).scroll(function() {
       $('header').addClass("sticky");
   } else {
       $('header').removeClass("sticky");
+      $('#menu').addClass('menu-toggle');
   }
 });
 
 // Menu.
-$('#menu-button').click(
-  $('#menu').css('display', 'block')
-);
+$('#menu-button').click(function(e) {
+  e.preventDefault();
+  $('#menu').toggleClass('menu-toggle');
+});

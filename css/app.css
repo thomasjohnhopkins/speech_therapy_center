@@ -22,6 +22,14 @@ section.header-section {
   height: 100%;
 }
 
+p.header-text {
+  margin-top: 5px;
+}
+
+p.header-text:hover {
+  cursor: pointer;
+}
+
 div.banner-container {
   background: #fff;
   margin: 0 0 20px 0;
@@ -225,11 +233,10 @@ i.fa-bars:hover {
 	right: 0;
 	top: 0;
   z-index: 100;
-  display: none;
 }
 
-div.side-menu-item {
-
+div.menu-toggle {
+  display: none;
 }
 
 p.side-menu-text {
@@ -237,6 +244,11 @@ p.side-menu-text {
   border-bottom: solid 1px #fefefe;
   text-align: center;
   font-size: 12px;
+}
+
+p.side-menu-text:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 
