@@ -1,59 +1,72 @@
 $(document).foundation();
 
-$("#home-button").click(function(e) {
+var hideMenu = function() {
+  $('#menu').addClass('menu-toggle');
+};
+
+$("#home-button, #footer-home-button").click(function(e) {
   e.preventDefault();
 
   $('html, body').animate({
     scrollTop: $("body").offset().top
   }, 2000);
+  hideMenu();
 });
 
-$("#footer-home-button").click(function(e) {
+$("#menu-mission-button").click(function(e) {
   e.preventDefault();
+  var offset = 50; //Offset of 20px
 
   $('html, body').animate({
-    scrollTop: $("body").offset().top
+    scrollTop: $("#mission-statement").offset().top - offset
   }, 2000);
+  hideMenu();
+
 });
 
-$("#button-one").click(function() {
+$("#button-one, #menu-button-one").click(function() {
     var offset = 20; //Offset of 20px
 
     $('html, body').animate({
         scrollTop: $("#section-one").offset().top - offset
     }, 2000);
+    hideMenu();
 });
 
-$("#button-two").click(function() {
+$("#button-two, #menu-button-two").click(function() {
     var offset = 20; //Offset of 20px
 
     $('html, body').animate({
         scrollTop: $("#section-two").offset().top - offset
     }, 2000);
+    hideMenu();
 });
 
-$("#button-three").click(function() {
+$("#button-three, #menu-button-three").click(function() {
     var offset = 20; //Offset of 20px
 
     $('html, body').animate({
         scrollTop: $("#section-three").offset().top - offset
     }, 2000);
+    hideMenu();
 });
 
-$("#button-four").click(function() {
+$("#button-four, #menu-button-four").click(function() {
     var offset = 20; //Offset of 20px
 
     $('html, body').animate({
         scrollTop: $("#section-four").offset().top - offset
     }, 2000);
+    hideMenu();
 });
 
-$("#button-five").click(function() {
+$("#button-five, #menu-button-five").click(function() {
     var offset = 20; //Offset of 20px
 
     $('html, body').animate({
         scrollTop: $("#section-five").offset().top - offset
     }, 2000);
+    hideMenu();
 });
 
 $(window).scroll(function() {
@@ -61,7 +74,7 @@ $(window).scroll(function() {
       $('header').addClass("sticky");
   } else {
       $('header').removeClass("sticky");
-      $('#menu').addClass('menu-toggle');
+      hideMenu();
   }
 });
 
