@@ -70,17 +70,17 @@ p.menu-item {
   border-radius: 10px;
   padding: 10px;
   font-size: 18px;
-  background: #2B4763;
+  background: #3b4e66;
   margin: 15px auto;
   text-align: center;
   color: #fff;
   max-width: 225px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 p.menu-item:hover {
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 section.content-section {
@@ -151,14 +151,14 @@ p.contact-text {
   text-align: center;
 }
 
-p.directions-text {
+div.directions-text {
   font-size: 16px;
   margin-bottom: 30px;
 }
 
 footer {
-  background: #2B4763;
-  opacity: 0.8;
+  background: #3b4e66;
+  opacity: 0.9;
   color: white;
 }
 
@@ -193,14 +193,14 @@ header {
   text-align: center;
   line-height: 108px;
   height: 108px;
-  background: #2B4763;
+  background: #3b4e66;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   display: none;
 }
 
 header.sticky {
-  opacity: 0.8;
+  opacity: 0.9;
   display: block;
   position: fixed;
   font-size: 24px;
@@ -219,11 +219,15 @@ i.fa-bars:hover {
   opacity: 0.6;
 }
 
+iframe {
+  border: 2px solid #3b4e66;
+}
+
 
 #menu {
 	-webkit-overflow-scrolling: touch;
-	background: #2B4763;
-  opacity: 0.8;
+	background: #3b4e66;
+  opacity: 0.9;
 	color: #fefefe;
   margin-top: 48px;
 	width: 100%;
