@@ -254,6 +254,16 @@ p.side-menu-text:hover {
   opacity: 0.6;
 }
 
+img.map-image {
+  width: 80%;
+  height: 80%;
+  margin-bottom: 20px;
+}
+
+img.map-image:hover {
+  cursor: pointer;
+}
+
 
 /*.close {
 	background-image: url('images/close.svg');
