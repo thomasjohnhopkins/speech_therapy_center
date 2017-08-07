@@ -69,14 +69,14 @@ $("#button-five, #menu-button-five").click(function() {
     hideMenu();
 });
 
-$(window).scroll(function() {
-  if ($(this).scrollTop() > 300){
-      $('header').addClass("sticky");
-  } else {
-      $('header').removeClass("sticky");
-      hideMenu();
-  }
-});
+// $(window).scroll(function() {
+//   if ($(this).scrollTop() > 300){
+//       $('header').addClass("sticky");
+//   } else {
+//       $('header').removeClass("sticky");
+//       hideMenu();
+//   }
+// });
 
 // Menu.
 $('#menu-button').click(function(e) {
