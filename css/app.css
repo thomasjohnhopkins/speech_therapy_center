@@ -109,9 +109,7 @@ h5.therapist-name {
 }
 
 div.therapist-image {
-  width: 80%;
-  height: 200px;
-  background: #aaa;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -262,6 +260,12 @@ img.map-image {
 
 img.map-image:hover {
   cursor: pointer;
+}
+
+img.services-image {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
 }
 
 
