@@ -69,14 +69,14 @@ $("#button-five, #menu-button-five").click(function() {
     hideMenu();
 });
 
-$("#button-six, #menu-button-six").click(function() {
-    var offset = 20; //Offset of 20px
-
-    $('html, body').animate({
-        scrollTop: $("#section-six").offset().top - offset
-    }, 2000);
-    hideMenu();
-});
+// $("#button-six, #menu-button-six").click(function() {
+//     var offset = 20; //Offset of 20px
+//
+//     $('html, body').animate({
+//         scrollTop: $("#section-six").offset().top - offset
+//     }, 2000);
+//     hideMenu();
+// });
 
 $(window).scroll(function() {
   if ($(this).scrollTop() > 300){
