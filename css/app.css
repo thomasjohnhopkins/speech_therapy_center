@@ -272,6 +272,10 @@ a.contact-link:hover {
   opacity: 0.6;
 }
 
+li.direction-bullet {
+  margin-left: 10px;
+}
+
 @media only screen and (max-width: 500px) {
   .header-text span {
     display: none;
